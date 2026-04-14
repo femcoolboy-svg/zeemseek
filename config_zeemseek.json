@@ -1,0 +1,22 @@
+{
+    "model": {
+        "name": "ZeemSeek Ultra",
+        "version": "1.0.0",
+        "architecture": "transformer_ultra",
+        "hidden_size": 1024,
+        "num_layers": 12,
+        "num_heads": 16,
+        "max_seq_len": 8192,
+        "vocab_size": 10000
+    },
+    "inference": {
+        "temperature": 0.7,
+        "max_tokens": 200,
+        "top_k": 50
+    },
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8000,
+        "reload": false
+    }
+}
